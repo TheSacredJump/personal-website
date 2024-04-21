@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.1ebaea58.css",
+    "main.js": "/personal-website/static/js/main.85eb1a81.js",
+    "static/media/IMG_5649.jpg": "/personal-website/static/media/IMG_5649.2041695d0323430c4207.jpg",
+    "static/media/StockFin.png": "/personal-website/static/media/StockFin.0e0bf3a08a8455564089.png",
+    "static/media/Research.png": "/personal-website/static/media/Research.625ad95cfe3299924738.png",
+    "static/media/CardioCrew.png": "/personal-website/static/media/CardioCrew.edfecefbb2ed8bc1f5bf.png",
+    "static/media/Sathya Logo.png": "/personal-website/static/media/Sathya Logo.62a90326ab6899b29eee.png",
+    "index.html": "/personal-website/index.html",
+    "main.1ebaea58.css.map": "/personal-website/static/css/main.1ebaea58.css.map",
+    "main.85eb1a81.js.map": "/personal-website/static/js/main.85eb1a81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ebaea58.css",
+    "static/js/main.85eb1a81.js"
+  ]
+}
