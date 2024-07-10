@@ -97,7 +97,7 @@ const Navbar = () => {
                 <div className="p-4">
                     <h2 className="text-lg font-bold">My Resume</h2>
                     <iframe
-                        src="/Sathya_P_Resume (2).pdf"
+                        src="/Sathya_p_Resume.pdf"
                         width="100%"
                         height="500px"
                         style={{ border: 'none' }}

@@ -1,4 +1,5 @@
 import React from 'react'
+import HorizonBanking from '../assets/Horizon.png'
 import StockFin from '../assets/StockFin.png'
 import CardioCrew from '../assets/CardioCrew.png'
 import Research from '../assets/Research.png'
@@ -51,7 +52,22 @@ const Projects = () => {
             
 
                 <motion.div ref={ref} intial="hidden" animate={inView ? "visible" : "hidden"} className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                    <motion.div custom={0} variants={cardVariants} style={{backgroundImage: `url(${StockFin})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <motion.div custom={0} variants={cardVariants} style={{backgroundImage: `url(${HorizonBanking})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Horizon: Banking Application
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://bankingapp-orpin.vercel.app/sign-in">
+                                    <button className='hover:scale-110 duration-500 rounded-lg text-center px-4 py-3 m-2 bg-white text-[#000300] font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/TheSacredJump/bankingapp">
+                                    <button className='hover:scale-110 duration-500 rounded-lg text-center px-4 py-3 m-2 bg-white text-[#000300] font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </motion.div>
+                    <motion.div custom={1} variants={cardVariants} style={{backgroundImage: `url(${StockFin})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 StockFin: AI Financial Advisor
@@ -66,7 +82,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div custom={1} variants={cardVariants} style={{backgroundImage: `url(${CardioCrew})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <motion.div custom={2} variants={cardVariants} style={{backgroundImage: `url(${CardioCrew})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 CardioCrew: RiceApps Project
@@ -81,7 +97,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div custom={2} variants={cardVariants} style={{backgroundImage: `url(${Research})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <motion.div custom={3} variants={cardVariants} style={{backgroundImage: `url(${Research})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Computational Bio Research
