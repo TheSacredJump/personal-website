@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.1ebaea58.css",
-    "main.js": "/static/js/main.5cd53a7b.js",
+    "main.js": "/static/js/main.0f7e1480.js",
     "static/media/IMG_5649.jpg": "/static/media/IMG_5649.2041695d0323430c4207.jpg",
     "static/media/StockFin.png": "/static/media/StockFin.0e0bf3a08a8455564089.png",
     "static/media/Research.png": "/static/media/Research.625ad95cfe3299924738.png",
+    "static/media/Horizon.png": "/static/media/Horizon.fcd0f0fa2bbc6084e909.png",
     "static/media/CardioCrew.png": "/static/media/CardioCrew.edfecefbb2ed8bc1f5bf.png",
     "static/media/Sathya Logo.png": "/static/media/Sathya Logo.62a90326ab6899b29eee.png",
     "index.html": "/index.html",
     "main.1ebaea58.css.map": "/static/css/main.1ebaea58.css.map",
-    "main.5cd53a7b.js.map": "/static/js/main.5cd53a7b.js.map"
+    "main.0f7e1480.js.map": "/static/js/main.0f7e1480.js.map"
   },
   "entrypoints": [
     "static/css/main.1ebaea58.css",
-    "static/js/main.5cd53a7b.js"
+    "static/js/main.0f7e1480.js"
   ]
 }
